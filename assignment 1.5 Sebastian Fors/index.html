@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Klubben</title>
+    </head>
+    <body>
+        <style>
+            body {
+                background-image: url(pictures/moriskan.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+        <p></p>
+        <div class="box">
+            <div class="innerbox">
+                <h1>Moriskan</h1>
+                <h2>
+                    <p>
+                        <label for="field1">Age:</label>
+                        <input type="number" value="16" id="field1" />
+                    </p>
+                    <p>
+                        <label for="vipcheckbox">VIP:</label>
+                        <input
+                            type="checkbox"
+                            class="onoffswitch-checkbox"
+                            id="vipcheckbox"
+                            checked
+                        />
+                        <button onclick="run()" id="enterBtn">
+                            Enter Moriska Paviljongen
+                        </button>
+                    </p>
+                </h2>
+            </div>
+        </div>
+        <script src="javascript/script.js"></script>
+    </body>
+</html>
