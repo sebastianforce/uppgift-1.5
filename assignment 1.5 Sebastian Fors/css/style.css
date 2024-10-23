@@ -1,27 +1,32 @@
+body {
+    background-image: url(../pictures/moriskan.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.flexbox{
+    margin-top: 20vh;
+    display: flex; 
+    justify-content: center;
+}
 .box {
     width: 600px;
     height: 300px;
     border: 14px outset rgb(199, 171, 13);
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/018/859/344/small/luxury-art-deco-seamless-pattern-background-abstract-elegant-art-nouveau-with-delicate-golden-geometric-line-vintage-decorative-minimalist-texture-style-design-for-wallpaper-banner-card-vector.jpg);
-    background-repeat: no-repeat;
-    background-size: 600px;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-image: url(../pictures/luxuryArtDeco.jpg);
+    background-size: cover;
 }
-.innerbox {
-    width: 100%;
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size*/
+
+ .innerbox {
     height: 100%;
     background: rgba(255, 255, 255, 0.409);
     background-image: radial-gradient(
         rgba(255, 230, 121, 0.586) 10%,
         rgba(159, 159, 159, 0) 70%
     );
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     align-content: center;
     font-family: Arial, Helvetica, sans-serif;
